@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-color: #191919;
+    background-position: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+.portfolio1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+}
+.portfolio1 span{
+    color: #0c00f9;
+}
+
+li{
+   color: white;
+   list-style: none;
+   display: inline-block;
+   font-size: 35px;
+   margin-right: 40px;
+   cursor: pointer; 
+}
+
+li :hover{
+    color: rgb(255, 145, 0);
+    transition: 0.5s;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nilanderson {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+h1 span{
+    color: #0c00f9;
+}
+
+.nilanderson h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+    background-color: #000000;
+}
+ 
+section img {
+    border-radius: 100%;
+    border: 4px solid #aeebf9;
+    height: 600px;
+    margin-right: 30px;
+}
+
+section div h2 {
+    color: #ffffff;
+    font-size: 75px;
+}
+
+section div p {
+    color: #aeebf9;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+
+section div button{
+    color: #000000;
+    background: #99c94f;
+    height: 50px;
+    width:180px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+section div button :hover {
+    background-color: black;
+    border: 3px solid #9a95f7;
+    transition: 0.5s;
+    justify-content: space-between;
+}
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2 {
+    color: #ffffff;
+    font-size: 75px;
+    text-align: center;
+}
+
+.card {
+    background-color: #000000;
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.card p {
+    color:#e2b9c6;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: #99c94f;
+    color: #fdfafa;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #99c94f;
+}
+
+.card-projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #141415;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    height: 24px;
+    border-radius: 50%;
+}
+
+.social a {
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
