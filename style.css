@@ -219,7 +219,21 @@ footer p {
     transition: 0.5s;
 }
 
+    @media screen and (max-width: 768px) {
+        .caixa-principal .nilanderson {
+            width: 100%;
+            padding: 0;
+    }
+}
 
+    @media screen and (max-width: 450px) {
+      div  .caixa-principal .nilanderson {
+        float: none;
+        text-align: center;
+        width: 100%;
+
+      }  
+} 
 
     
 
